@@ -1,1 +1,1 @@
-# Ions, idiopathy, and invisibility in-between insights and institutional inertia
+# Ions, idiopathy, and invisibility: in-between insights and institutional inertia
