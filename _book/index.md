@@ -1,7 +1,7 @@
 --- 
 title: "Ions, idiopathy, and institutional inertia"
 author: "Kelli Feeser - BlackSheepBrokenGenesBartteredDreams"
-date: "`r Sys.Date()`"
+date: "2025-01-02"
 site: bookdown::bookdown_site
 documentclass: book
 # bibliography: [book.bib] # Remove `packages.bib` if it doesn't exist
@@ -45,7 +45,8 @@ You can render the HTML version of this example book without changing anything:
 
 Or build the book from the R console:
 
-```{r, eval=FALSE}
+
+``` r
 bookdown::render_book("index.Rmd", "bookdown::gitbook")
 
 bookdown::render_book()
@@ -57,14 +58,10 @@ To render this example to PDF as a `bookdown::pdf_book`, you'll need to install 
 
 As you work, you may start a local server to live preview this HTML book. This preview will update as you edit the book when you save individual .Rmd files. You can start the server in a work session by using the RStudio add-in "Preview book", or from the R console:
 
-```{r eval=FALSE}
+
+``` r
 bookdown::serve_book()
 ```
 
 
-```{r include=FALSE}
-# automatically create a bib database for R packages
-knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
-```
+
