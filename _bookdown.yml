@@ -1,0 +1,16 @@
+## File Relationships
+# - `index.Rmd`: The book's introduction and first page.
+# - `_bookdown.yml`: Defines the structure and file order.
+# - `_config.yml`: Configures styling for GitHub Pages.
+# - `_output.yml`: Customizes output format and behavior.
+# - `README.Rmd`: Describes the repository for GitHub users.
+book_filename: "ions-and-idiopathy"
+output_dir: "_book"
+delete_merged_file: true
+new_session: yes
+language:
+  ui:
+    chapter_name: "Chapter"
+rmd_files:
+  - index.Rmd
+  # - "01-intro.Rmd"

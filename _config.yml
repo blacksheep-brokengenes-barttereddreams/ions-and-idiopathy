@@ -1,0 +1,27 @@
+# GitHub Pages theme configuration
+  ## File Relationships
+# - `index.Rmd`: The book's introduction and first page.
+# - `_bookdown.yml`: Defines the structure and file order.
+# - `_config.yml`: Configures styling for GitHub Pages.
+# - `_output.yml`: Customizes output format and behavior.
+# - `README.Rmd`: Describes the repository for GitHub users.
+# GitHub Pages Theme
+theme: cayman
+title: Ions, idiopathy, and institutional inertia
+description: A genomic and clinical exploration of Bartter Syndrome Type 3.
+
+# Bookdown Configurations
+bookdown::gitbook:
+  config:
+    toc:
+      before: |
+        <li><a href="./">Ions and Idiopathy</a></li>
+      after: |
+        <li><a href="https://github.com/blacksheep-brokengenes-barttereddreams/ions-and-idiopathy" target="_blank">Published with Bookdown</a></li>
+    download: ["pdf", "epub"]
+
+bookdown::pdf_book:
+  latex_engine: xelatex
+  citation_package: natbib
+
+bookdown::epub_book: default
