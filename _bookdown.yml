@@ -5,7 +5,7 @@
 # - `_output.yml`: Customizes output format and behavior.
 # - `README.Rmd`: Describes the repository for GitHub users.
 book_filename: "ions-and-idiopathy"
-output_dir: "_book"
+output_dir: "docs"
 delete_merged_file: true
 new_session: yes
 language:
